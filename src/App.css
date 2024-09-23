@@ -1,42 +1,80 @@
-#root {
-  max-width: 1280px;
+Bookshelf Styles
+.bookshelfDiv {
+
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  
+  background-color: #E0E1DD; /* Placeholder for background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.formDiv {
+  background-color: #edf2f4; /* Placeholder for form background color */
+  padding: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-color: #0D1B2A;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h3 {
+  color: #333333; /* Placeholder for header text color */
+  margin-bottom: 15px;
 }
 
-.card {
-  padding: 2em;
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555555; /* Placeholder for label text color */
 }
 
-.read-the-docs {
-  color: #888;
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #CCCCCC; /* Placeholder for input border color */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #4A90E2; /* Placeholder for input focus border color */
+  outline: none;
+}
+
+button {
+  background-color: #778DA9; /* Placeholder for button background color */
+  color: #FFFFFF; /* Placeholder for button text color */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #415A77; /* Placeholder for button hover color */
+}
+
+.bookCardsDiv {
+  margin-top: 20px;
+}
+
+.bookCard {
+  background-color: #edf2f4; /* Placeholder for card background color */
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bookCard h3 {
+  margin: 0;
+  color: #333333; /* Placeholder for book title color */
+}
+
+.bookCard p {
+  color: #777777; /* Placeholder for author text color */
 }

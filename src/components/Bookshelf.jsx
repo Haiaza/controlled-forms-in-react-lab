@@ -1,4 +1,6 @@
 import { useState } from "react";
+import '../App.css'
+
 
 const Bookshelf = () => {
     const [books, setBooks] = useState([
@@ -66,7 +68,14 @@ return (
                     <button type="submit">Submit</button>
                 </form>
             </div>
-            <div className="bookCardsDiv">{/* Book cards will display here */}</div>
+            <div className="bookCardsDiv">
+                {books.map((book, index) =>(
+                    <div className="bookCard" key={index}>
+                        <h3>{book.title}</h3>
+                        <p>{book.author}</p>
+                    </div>
+                ))}
+            </div>
         </div>
     </>
 )
